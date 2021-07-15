@@ -1,0 +1,70 @@
+:root {
+  --blue: #33bfce;
+  --green: #afe260;
+  --black: #3f324c;
+  --white: #ededed;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: var(--white);
+}
+
+.logo {
+  color: var(--black);
+  font-family: "Zen Dots", Arial, Helvetica, sans-serif;
+}
+
+.header {
+  background-image: url("/src/img/bg-utama.jpg");
+  margin-top: 75px;
+  padding: 20px;
+  width: 100%;
+  font-family: Poppins, Arial, Helvetica, sans-serif;
+  font-weight: 800;
+}
+
+.gambar {
+  width: 100%;
+  height: 300px;
+  max-zoom: 100px;
+}
+
+.text {
+  text-align: center;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  color: var(--white);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 35px;
+}
+
+.text img {
+  width: 150px;
+}
+
+.main-card {
+  margin-bottom: 20px;
+}
+.card {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: Poppins, Arial, Helvetica, sans-serif;
+  width: 25%;
+}
+
+.card-body {
+  background-color: var(--blue);
+}
+
+.card-text {
+  font-family: Poppins, Arial, Helvetica, sans-serif;
+  text-align: center;
+  color: var(--black);
+}
